@@ -52,6 +52,28 @@ public class UserDao {
 
     }
 
+    public void create2(User user) throws SQLException {
+
+        jdbcTemplate jdbcTemplate = new jdbcTemplate();
+
+        String sql = "INSERT INTO USERS VALUES (?, ?, ?, ?)";
+
+        jdbcTemplate.executeUpdate(user, sql, new PreparedStatementSetter() {
+            @Override
+            public void setter(PreparedStatement pstnt) throws SQLException {
+
+                pstnt.setString(1, user.getUserId());
+                pstnt.setString(2, user.getPassword());
+                pstnt.setString(3, user.getName());
+                pstnt.setString(4, user.getEmail());
+
+            }
+        });
+
+
+
+    }
+
 
 
     public User findByUserId(String userId) throws SQLException {

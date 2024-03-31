@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d900dac7-63a0-49be-b2c0-fffa5bcd4936" name="Changes" comment="데이터베이스에 저장된 정보 불러오는 코드 with hikari cp">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UserDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/db_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PreparedStatementSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jdbcTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/UserDAOTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -69,7 +59,7 @@
     "Gradle.Build jdbc-practice.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "Gradle.UserDAOTest.createTest.executor": "Run",
+    "Gradle.UserDAOTest.createTest.executor": "Debug",
     "Gradle.UserDAOTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -100,7 +90,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserDAOTest">
+  <component name="RunManager" selected="Gradle.UserDAOTest.createTest">
     <configuration name="UserDAOTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UserDAOTest" />
         <item itemvalue="Gradle.UserDAOTest.createTest" />
+        <item itemvalue="Gradle.UserDAOTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,8 +162,27 @@
       <workItem from="1711088389986" duration="804000" />
       <workItem from="1711284540358" duration="5468000" />
       <workItem from="1711290031016" duration="994000" />
-      <workItem from="1711802616323" duration="728000" />
+      <workItem from="1711802616323" duration="2838000" />
+      <workItem from="1711805905334" duration="23000" />
+      <workItem from="1711869631117" duration="5325000" />
     </task>
+    <task id="LOCAL-00001" summary="데이터베이스에 저장된 정보 불러오는 코드 with hikari cp">
+      <option name="closed" value="true" />
+      <created>1711803661177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711803661177</updated>
+    </task>
+    <task id="LOCAL-00002" summary="데이터베이스에 저장된 정보 불러오는 코드 with hikari cp">
+      <option name="closed" value="true" />
+      <created>1711803672715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711803672715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

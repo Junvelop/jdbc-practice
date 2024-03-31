@@ -30,3 +30,5 @@ public class UserDAOTest {
         assertThat(user).isEqualTo(new User("wizard", "password", "name", "email"));
     }
 }
+
+// 7분 30초
